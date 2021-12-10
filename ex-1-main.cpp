@@ -54,7 +54,7 @@ int nth_prime(int a, unsigned d, unsigned n) {
 }
 /* --------------------------------------------------------------- */
 /*
-*  comper_prime
+*  compare_prime
 *
 *
 与えられた正整数 numとans が同じか調べ、真偽を表示する。

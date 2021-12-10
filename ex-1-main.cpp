@@ -33,7 +33,7 @@ bool is_prime(int x) {
 */
 /* -------------------------------------------------------------- */
 //不正な入力値(負の数)を摘出
-int nth_prime(int a, unsigned d, unsigned n) {
+int nth_prime(int a, int d, int n) {
 	if (a < 0 || d < 0 || n < 0)
 		throw std::out_of_range("正整数を入力してください");
 
